@@ -1,0 +1,74 @@
+/*
+   main.css
+   Created by Frank on 2011-10-04.
+*/
+
+body {
+	font-size: 100%;
+	margin: 10px;
+	padding: 10px;
+}
+
+h1 {
+	font-family: georgia, serif;
+	font-size: 1.375em; /* 16x1.375=22px */
+}
+
+.center {
+	text-align: center;
+}
+
+#wrapper {
+	margin: 10px;
+	padding: 20px;
+	background-color: #eee;
+	border: 1px solid #000;
+	width: 600px;
+}
+
+#wrapper .errors {
+	font-family: courier, monospace;
+	color: red;
+	font-weight: bold;
+	font-size: 0.625em;
+}
+
+form#exerciseForm {
+	font-family: tahoma, verdana, arial, helvetica, sans-serif;
+	font-size: 0.875em; /* 16x0.875=14px */
+	margin-top: 10px;
+}
+
+form#exerciseForm legend {
+	font-size: 1.125em; /* 16x1.125=18px */
+	font-variant: small-caps;
+	letter-spacing: .2em;
+}
+
+form#exerciseForm label {	
+	float: left;
+	text-align: right;
+	width: 200px;
+	margin-right: 10px;
+}
+
+form#exerciseForm input.text {
+	width: 200px;
+}
+
+form#exerciseForm textarea {
+	height: 60px;
+	width: 300px;
+}
+
+form#exerciseForm .formErrors {
+	color: red;
+}
+
+form#exerciseForm .formInfo {
+	font-style: italic;
+}
+
+form#exerciseForm fieldset {
+	margin-bottom: 20px;
+}
